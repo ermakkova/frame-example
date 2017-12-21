@@ -1,0 +1,81 @@
+
+
+.ramka {
+  position: relative;
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 800px;
+  min-width: 400px;
+  min-height: 1100px;
+}
+
+.u1,
+.u2,
+.u3,
+.u4 {
+  background-image: url("http://fe.it-academy.by/Sites/0024813/ugol.png");
+  width: 98px;
+  height: 98px;
+  background-size: contain;
+}
+
+.u1,
+.u2,
+.u3,
+.u4 {
+  position: absolute;
+}
+
+.u2 {
+  right: 0;
+  transform: rotate(90deg);
+}
+
+.u3 {
+  bottom: 0;
+  transform: rotate(-90deg);
+}
+
+.u4 {
+  right: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+.border-top,
+.border-bottom {
+  position: absolute;
+  height: 37px;
+  background-size: contain;
+
+  left: 120px;
+  right: 90px;
+  background-image: url("http://fe.it-academy.by/Sites/0024813/s1.png");
+}
+
+.border-left,
+.border-right {
+  position: absolute;
+  top: 130px;
+  bottom: 130px;
+  width: 37px;
+  background-size: contain;
+  background-image: url("http://fe.it-academy.by/Sites/0024813/s2.png");
+}
+.border-bottom {
+  bottom: 0px;
+  left: 0px;
+}
+.border-top {
+  left: 0px;}
+
+
+.border-left{
+  top: 0px;
+  bottom: 0px;
+}
+.border-right {
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
